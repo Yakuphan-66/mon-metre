@@ -11,9 +11,9 @@ document.getElementById('fileInput').addEventListener('change', async function(e
   fileNameElement.textContent = file.name;
   resultsBody.innerHTML = "<tr><td colspan='3'>Analyse en cours...</td></tr>";
 
-  // Préparer le fichier à envoyer
+  // Préparer le fichier dans un champ nommé 'fichier_plan'
   const formData = new FormData();
-  formData.append("file", file);
+  formData.append("fichier_plan", file); // nom clair pour Make
 
   try {
     const response = await fetch("https://hook.eu2.make.com/xaojp8n2xptvc358tttt74jl3xa0kgwg", {
