@@ -1,0 +1,222 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#fcf8f8] group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f3e7e8] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#1b0e0e]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path></svg>
+            </div>
+            <h2 class="text-[#1b0e0e] text-lg font-bold leading-tight tracking-[-0.015em]">PlanWise</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#1b0e0e] text-sm font-medium leading-normal" href="#">Dashboard</a>
+              <a class="text-[#1b0e0e] text-sm font-medium leading-normal" href="#">Projects</a>
+              <a class="text-[#1b0e0e] text-sm font-medium leading-normal" href="#">Templates</a>
+              <a class="text-[#1b0e0e] text-sm font-medium leading-normal" href="#">Integrations</a>
+              <a class="text-[#1b0e0e] text-sm font-medium leading-normal" href="#">Help</a>
+            </div>
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f3e7e8] text-[#1b0e0e] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+            >
+              <div class="text-[#1b0e0e]" data-icon="Bell" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAXE3EicMJXC7tlHNo_HCICu8TncgaH2xOpBTOv4Y0zz3EyEj_3Wz14YQr6X12LrQkvs9IxLL_hpeVmu-1fT9iENDsaS90UwnDAM3943KFlB_Sq9ZT6JEi5cmT0V7OMIRMrlXniG5spV8xpXyiJjQT9sO7PgA6WJnR4zQWqyPBrpBSJdRLDOACN5e_FaXriZEHVf7pBR9EL2NnEtrM4J3vWf5MVKO_PbrH0fY-qQFzIj2BccAcJkVHEh-hBzZpHtl8hYKGTDUp090M");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-[#1b0e0e] tracking-light text-[32px] font-bold leading-tight min-w-72">Projects</p>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f3e7e8] text-[#1b0e0e] text-sm font-medium leading-normal"
+              >
+                <span class="truncate">New Project</span>
+              </button>
+            </div>
+            <div class="px-4 py-3">
+              <label class="flex flex-col min-w-40 h-12 w-full">
+                <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                  <div
+                    class="text-[#994d51] flex border-none bg-[#f3e7e8] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                    data-icon="MagnifyingGlass"
+                    data-size="24px"
+                    data-weight="regular"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <input
+                    placeholder="Search projects"
+                    class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#1b0e0e] focus:outline-0 focus:ring-0 border-none bg-[#f3e7e8] focus:border-none h-full placeholder:text-[#994d51] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                    value=""
+                  />
+                </div>
+              </label>
+            </div>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-lg border border-[#e7d0d1] bg-[#fcf8f8]">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-[#fcf8f8]">
+                      <th class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-120 px-4 py-3 text-left text-[#1b0e0e] w-[400px] text-sm font-medium leading-normal">Name</th>
+                      <th class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-240 px-4 py-3 text-left text-[#1b0e0e] w-60 text-sm font-medium leading-normal">Status</th>
+                      <th class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-360 px-4 py-3 text-left text-[#1b0e0e] w-[400px] text-sm font-medium leading-normal">Created</th>
+                      <th class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-480 px-4 py-3 text-left text-[#1b0e0e] w-[400px] text-sm font-medium leading-normal">
+                        Last Modified
+                      </th>
+                      <th class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-600 px-4 py-3 text-left text-[#1b0e0e] w-60 text-[#994d51] text-sm font-medium leading-normal">
+                        Actions
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#e7d0d1]">
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-120 h-[72px] px-4 py-2 w-[400px] text-[#1b0e0e] text-sm font-normal leading-normal">
+                        Residential Renovation
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-240 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f3e7e8] text-[#1b0e0e] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">In Progress</span>
+                        </button>
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-360 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        2023-08-15
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-480 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        2023-09-02
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-600 h-[72px] px-4 py-2 w-60 text-[#994d51] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#e7d0d1]">
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-120 h-[72px] px-4 py-2 w-[400px] text-[#1b0e0e] text-sm font-normal leading-normal">
+                        Commercial Build-Out
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-240 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f3e7e8] text-[#1b0e0e] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Completed</span>
+                        </button>
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-360 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        2023-07-22
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-480 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        2023-08-10
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-600 h-[72px] px-4 py-2 w-60 text-[#994d51] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#e7d0d1]">
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-120 h-[72px] px-4 py-2 w-[400px] text-[#1b0e0e] text-sm font-normal leading-normal">
+                        Retail Space Remodel
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-240 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f3e7e8] text-[#1b0e0e] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">In Progress</span>
+                        </button>
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-360 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        2023-09-01
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-480 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        2023-09-05
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-600 h-[72px] px-4 py-2 w-60 text-[#994d51] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#e7d0d1]">
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-120 h-[72px] px-4 py-2 w-[400px] text-[#1b0e0e] text-sm font-normal leading-normal">
+                        Office Expansion
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-240 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f3e7e8] text-[#1b0e0e] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Planning</span>
+                        </button>
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-360 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        2023-06-10
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-480 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        2023-06-15
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-600 h-[72px] px-4 py-2 w-60 text-[#994d51] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#e7d0d1]">
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-120 h-[72px] px-4 py-2 w-[400px] text-[#1b0e0e] text-sm font-normal leading-normal">
+                        Mixed-Use Development
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-240 h-[72px] px-4 py-2 w-60 text-sm font-normal leading-normal">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#f3e7e8] text-[#1b0e0e] text-sm font-medium leading-normal w-full"
+                        >
+                          <span class="truncate">Completed</span>
+                        </button>
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-360 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        2023-05-05
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-480 h-[72px] px-4 py-2 w-[400px] text-[#994d51] text-sm font-normal leading-normal">
+                        2023-05-20
+                      </td>
+                      <td class="table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-600 h-[72px] px-4 py-2 w-60 text-[#994d51] text-sm font-bold leading-normal tracking-[0.015em]">
+                        View
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-120{display: none;}}
+                @container(max-width:240px){.table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-240{display: none;}}
+                @container(max-width:360px){.table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-360{display: none;}}
+                @container(max-width:480px){.table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-480{display: none;}}
+                @container(max-width:600px){.table-3e59e04d-d5b6-44ee-9fa9-ff593c85e86d-column-600{display: none;}}
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
